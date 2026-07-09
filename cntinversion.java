@@ -6,9 +6,16 @@ public class cntinversion {
                 arr[low] = arr[mid+1];
                 arr[mid+1] = temp;
                 low++;
-            }{} 
+            }else{
+                mid++;
+                low++;
+            } 
          
 
+            
+        }
+        while (low<=mid) {
+            
             
         }
         
